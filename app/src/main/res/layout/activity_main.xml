@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Enter Your Birth Year"/>
+
+    <EditText
+            android:id="@+id/year"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="eg:1998"/>
+
+    <Button
+            android:id="@+id/findIt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Find"
+            android:textColor="#fff"
+            android:background="#3F51B5"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:id="@+id/printAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>
